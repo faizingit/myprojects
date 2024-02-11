@@ -8,12 +8,28 @@ th,td{text-align: center;}
 td,th{border-bottom: 1px solid greenyellow;}
 tr:hover{background-color: aliceblue;}
 
-.pic{text-align: center; opacity: 0.1;}
+/* .pic{text-align: center; opacity: 0.1;} */
+/* .pic{
+    display: flex;
+    justify-content: center;
+    opacity: 0.1;
+    position: sticky;
+    z-index: 2;
+} */
 
-body{
+body { 
+    background-image: url('multimedia/fav.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+
+
+/* body{
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZeTk9AF9bl-x93-6Yt99zQl3cKvAmLp7jyg&usqp=CAU');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
-}
+    background-size: cover; 
+} */
